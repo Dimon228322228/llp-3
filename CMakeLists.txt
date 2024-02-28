@@ -5,6 +5,7 @@ project(llp C)
 file(GLOB_RECURSE sources CONFIGURE_DEPENDS
         src/*/*.c
         include/*/*.h
+        src/main.c
         )
 
 find_package(LibXml2 REQUIRED)
