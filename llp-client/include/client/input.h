@@ -5,9 +5,9 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdbool.h>
-#include "client/ast.h"
-#include "client/parser.tab.h"
-#include "serializer/xml.h"
+#include "ast.h"
+#include "parser.tab.h"
+#include "../serializer/xml.h"
 
 //int yywrap();
 void yyerror(const char *s);

@@ -1,4 +1,4 @@
-#include "client/ast.h"
+#include "../../include/client/ast.h"
 
 #include <stdarg.h>
 #include <stdbool.h>

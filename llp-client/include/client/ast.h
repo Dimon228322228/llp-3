@@ -4,7 +4,7 @@
 #include <stdbool.h>
 #include <stddef.h>
 
-#include "client/ast_node_type.h"
+#include "ast_node_type.h"
 
 struct ast_node {
     union {

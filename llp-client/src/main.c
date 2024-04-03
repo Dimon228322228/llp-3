@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include "client/input.h"
-#include "transfer/socket.h"
+#include "../include/client/input.h"
+#include "../include/transfer/socket.h"
 
 int main() {
 
